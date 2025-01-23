@@ -1,4 +1,23 @@
 $(document).ready(function(){
-    console.log("Online jQuery");
     
+    let $coin = $("#coin");
+    
+    $coin.on("click", function(){
+        let randNum = Math.random();
+        console.log(randNum);
+
+        $coin.removeClass();
+
+
+        setTimeout(function(){
+            if (randNum <= 0.5) {
+                console.log("es cara");
+                $coin.addClass("isHeads");
+            } else {
+                console.log("es cruz");
+                $coin.addClass("isTails");
+            }
+        }, 100);
+    })
+
 });

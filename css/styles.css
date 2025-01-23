@@ -50,12 +50,12 @@ h1 {
 }
 
 .heads {
-    background-color: rgb(235, 232, 81);
+    background-color: rgb(235, 231, 47);
     z-index: 100;
 }
 
 .tails {
-    background-color: rgb(114, 217, 224);
+    background-color: rgb(194, 182, 19);
     transform: rotateY(-180deg);
 }
 
