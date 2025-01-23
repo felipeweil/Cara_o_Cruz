@@ -60,12 +60,12 @@ h1 {
 }
 
 #coin.isHeads {
-    animation: flipHeads 3s ease-in-out forwards;
+    animation: flipHeads 3s ease-out forwards;
 
 }
 
 #coin.isTails {
-    animation: flipTails 3s ease-in-out forwards;
+    animation: flipTails 3s ease-out forwards;
 
 }
 
